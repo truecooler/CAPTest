@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Worker2-21d246ee-e234-4f61-a844-93e1d1f0c2e1</UserSecretsId>
+    <!--<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetCore.CAP" Version="7.1.0" />
+    <PackageReference Include="DotNetCore.CAP.InMemoryStorage" Version="7.1.0" />
+    <PackageReference Include="DotNetCore.CAP.MongoDB" Version="7.1.0" />
+    <PackageReference Include="DotNetCore.CAP.NATS" Version="7.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="NATS.Client" Version="1.0.3" />
+  </ItemGroup>
+
+</Project>
